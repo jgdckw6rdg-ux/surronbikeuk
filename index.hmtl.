@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sur-Ron Bike UK</title>
+<meta name="description" content="Sur-Ron Bike UK — electric off-road bikes.">
+
+<style>
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#080808;
+  color:#fff;
+}
+
+header{
+  padding:20px 7%;
+  display:flex;
+  justify-content:space-between;
+  border-bottom:1px solid #252525;
+}
+
+header b{font-size:20px}
+header span{color:#d7ff00}
+
+.hero{
+  padding:110px 7%;
+  min-height:60vh;
+  background:radial-gradient(
+    circle at 75% 45%,
+    #394500,
+    #111 38%,
+    #080808 72%
+  );
+}
+
+.tag{
+  color:#d7ff00;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+.hero h1{
+  font-size:clamp(52px,9vw,100px);
+  line-height:.9;
+  margin:20px 0;
+}
+
+.hero p{
+  max-width:620px;
+  color:#aaa;
+  font-size:18px;
+  line-height:1.7;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:15px 24px;
+  background:#d7ff00;
+  color:#000;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:5px;
+}
+
+.section{
+  padding:75px 7%;
+}
+
+.section h2{
+  font-size:40px;
+}
+
+.muted{
+  color:#999;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:#151515;
+  border:1px solid #292929;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.pic{
+  height:220px;
+  display:grid;
+  place-items:center;
+  font-size:70px;
+  background:#222;
+}
+
+.body{
+  padding:22px;
+}
+
+.price{
+  color:#d7ff00;
+  font-weight:bold;
+  font-size:21px;
+}
+
+.about{
+  background:#111;
+}
+
+.contact{
+  background:#d7ff00;
+  color:#000;
+}
+
+.contact .muted{
+  color:#222;
+}
+
+footer{
+  padding:25px 7%;
+  color:#777;
+  border-top:1px solid #222;
+}
+
+@media(max-width:650px){
+  header nav{
+    display:none;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <b>SUR-RON <span>BIKE UK</span></b>
+  <nav>
+    Bikes &nbsp; About &nbsp; Contact
+  </nav>
+</header>
+
+<section class="hero">
+
+  <div class="tag">
+    ELECTRIC PERFORMANCE
+  </div>
+
+  <h1>
+    RIDE<br>
+    BEYOND.
+  </h1>
+
+  <p>
+    Explore Sur-Ron electric bikes for riders looking
+    for power, agility and off-road capability.
+  </p>
+
+  <a class="btn" href="#bikes">
+    Explore Bikes
+  </a>
+
+</section>
+
+<section class="section" id="bikes">
+
+  <h2>Our Bikes</h2>
+
+  <p class="muted">
+    Contact us to confirm current availability,
+    pricing and delivery information.
+  </p>
+
+  <div class="grid">
+
+    <article class="card">
+
+      <div class="pic">🏍️</div>
+
+      <div class="body">
+
+        <h3>Sur-Ron Light Bee X</h3>
+
+        <p class="muted">
+          Compact electric off-road bike
+          for agile trail riding.
+        </p>
+
+        <p class="price">
+          Enquire for price
+        </p>
+
+        <a class="btn" href="#contact">
+          Enquire
+        </a>
+
+      </div>
+
+    </article>
+
+    <article class="card">
+
+      <div class="pic">⚡</div>
+
+      <div class="body">
+
+        <h3>Sur-Ron Ultra Bee</h3>
+
+        <p class="muted">
+          Performance-focused electric
+          off-road platform.
+        </p>
+
+        <p class="price">
+          Enquire for price
+        </p>
+
+        <a class="btn" href="#contact">
+          Enquire
+        </a>
+
+      </div>
+
+    </article>
+
+    <article class="card">
+
+      <div class="pic">🔥</div>
+
+      <div class="body">
+
+        <h3>Sur-Ron Storm Bee</h3>
+
+        <p class="muted">
+          High-performance electric power
+          for off-road riding.
+        </p>
+
+        <p class="price">
+          Enquire for price
+        </p>
+
+        <a class="btn" href="#contact">
+          Enquire
+        </a>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+<section class="section about">
+
+  <h2>About</h2>
+
+  <p class="muted">
+    Sur-Ron Bike UK provides information and
+    sales enquiries for Sur-Ron electric bikes.
+    Please confirm stock, final pricing,
+    specifications and delivery arrangements
+    before ordering.
+  </p>
+
+</section>
+
+<section class="section contact" id="contact">
+
+  <h2>Ready to ride?</h2>
+
+  <p class="muted">
+    Contact us about models, availability and delivery.
+  </p>
+
+  <a
+    class="btn"
+    style="background:#000;color:#fff"
+    href="mailto:info@surronbikeuk.com">
+    Email Us
+  </a>
+
+</section>
+
+<footer>
+  © 2026 Sur-Ron Bike UK
+</footer>
+
+</body>
+</html>
